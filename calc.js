@@ -54,9 +54,6 @@ $(document).ready(function () {
     document.getElementById('salmon_number_1').innerHTML = (food_item_1.nutrients[6].amount / 80).toFixed(1);
     document.getElementById('salmon_number_2').innerHTML = (food_item_2.nutrients[6].amount / 80).toFixed(1);
     
-    novel
-
-
     //console.log((bansal_1));
     var my_dynamic_array = [];
     //iterate over food items and find high concentration of items
