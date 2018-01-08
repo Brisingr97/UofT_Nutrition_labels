@@ -1,0 +1,75 @@
+{"food": [
+        {
+            "nutrients": [
+                {
+                    "fact": "Calcium",
+                    "optional":"good",
+                    "effect": "Stronger bones"
+                },
+                {
+                    "fact": "Calories",
+                    "effect": "Weight gain"
+                },
+                {
+                    "fact": "Cholesterol",
+                    "effect": "Atherosclerosis, can lead to chroic heart problems"
+                },
+                {
+                    "fact":"Calories from Fat",
+                    "amount":135
+                    },
+                {
+                    "fact": "Dietary Fiber",
+                    "optional":"good",
+                    "effect": "Weight maintainence"
+                },
+                {
+                    "fact": "Iron",
+                    "optional":"good",
+                    "effect": "Less Lethargy"
+                },
+                {
+                    "fact": "Protein",
+                    "optional":"good",
+                    "effect": "Muscle gain"
+                },
+                {
+                    "fact": "Saturated Fat",
+                    "effect": "Higher probablilty of strokes"
+                },
+                {
+                    "fact": "Sodium",
+                    "effect": "High blood pressure"
+                },
+                {
+                    "fact": "Sugars",
+                    "effect": "Diabetes"
+                },
+                {
+                    "fact": "Total Carbs",
+                    "effect": "Weight gain"
+                },
+                {
+                    "fact": "Total Fat",
+                    "effect": "Increased risk of heart problems"
+                },
+                {
+                    "fact": "Trans Fat",
+                    "effect": "Lower stamina"
+                },
+                {
+                    "fact": "Vitamin A",
+                    "optional":"good",
+                    "effect": "Eyesight Correction"
+                },
+                {
+                    "fact": "Vitamin C",
+                    "optional":"good",
+                    "effect": "Better skin"
+                }
+            ]
+        },{
+
+        }
+    ]
+}

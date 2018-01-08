@@ -1,0 +1,26 @@
+#myProgress {
+  width: 94%;
+  background-color:rgb(223, 223, 223);
+}
+
+#myBar {
+  width: 0%;
+  height: 3px;
+  background-color: rgb(113, 196, 96);
+  text-align: center;
+  line-height: 30px;
+  color: rgb(24, 165, 66);
+}
+#myProgress_2 {
+  width: 94%;
+  background-color:rgb(223, 223, 223);
+}
+
+#myBar_2 {
+  width: 0%;
+  height: 3px;
+  background-color: rgb(113, 196, 96);
+  text-align: center;
+  line-height: 30px;
+  color: rgb(24, 165, 66);
+}

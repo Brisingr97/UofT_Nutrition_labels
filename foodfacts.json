@@ -1,0 +1,166 @@
+{"food": [
+    {
+	"name": "yogourt A",
+	"serving": "120",
+	"type": "yogourt",
+	"nutrients": [
+	    {
+		"fact":"Calcium",
+		"amount":48,
+		"percent":4
+	    },
+	    {
+		"fact":"Calories",
+		"amount":250,
+		"percent":8
+	    },
+	    {
+		"fact":"Calories from Fat",
+		"amount":135
+	    },
+	    {
+		"fact":"Cholesterol",
+		"amount":40,
+		"percent":13
+	    },
+	    {
+		"fact":"Dietary Fiber",
+		"amount":1,
+		"percent":4
+	    },
+	    {
+		"fact":"Iron",
+		"amount":1.5,
+		"percent":10
+	    },
+	    {
+		"fact":"Protein",
+		"amount":15,
+		"percent":24
+	    },
+	    {
+		"fact":"Saturated Fat",
+		"amount":3.5,
+		"percent":18
+	    },
+	    {
+		"fact":"Sodium",
+		"amount":570,
+		"percent":24
+	    },
+	    {
+		"fact":"Sugars",
+		"amount":0,
+		"percent":0
+	    },
+	    {
+		"fact":"Total Carbs",
+		"amount":13,
+		"percent":4
+	    },
+	    {
+		"fact":"Total Fat",
+		"amount":15,
+		"percent":23
+	    },
+	    {
+		"fact":"Trans Fat",
+		"amount":0,
+		"percent":0
+	    },
+	    {
+		"fact":"Vitamin A",
+		"amount":0,
+		"percent":0
+	    },
+	    {
+		"fact":"Vitamin C",
+		"amount":0,
+		"percent":0
+	    }
+	]
+    },
+    {
+	"name": "yogourt B",
+	"serving": "180",
+	"type": "yogourt",
+
+	"nutrients": [
+	    {
+		"fact":"Calcium",
+		"amount":48,
+		"percent":4
+	    },
+	    {
+		"fact":"Calories",
+		"amount":280,
+		"percent":9
+	    },
+	    {
+		"fact":"Calories from Fat",
+		"amount":135
+	    },
+	    {
+		"fact":"Cholesterol",
+		"amount":40,
+		"percent":13
+	    },
+	    {
+		"fact":"Dietary Fiber",
+		"amount":1,
+		"percent":4
+	    },
+	    {
+		"fact":"Iron",
+		"amount":6,
+		"percent":40
+	    },
+	    {
+		"fact":"Protein",
+		"amount":30,
+		"percent":48
+	    },
+	    {
+		"fact":"Saturated Fat",
+		"amount":3.5,
+		"percent":18
+	    },
+	    {
+		"fact":"Sodium",
+		"amount":570,
+		"percent":24
+	    },
+	    {
+		"fact":"Sugars",
+		"amount":0,
+		"percent":0
+	    },
+	    {
+		"fact":"Total Carbs",
+		"amount":13,
+		"percent":4
+	    },
+	    {
+		"fact":"Total Fat",
+		"amount":7,
+		"percent":11
+	    },
+	    {
+		"fact":"Trans Fat",
+		"amount":0,
+		"percent":0
+	    },
+	    {
+		"fact":"Vitamin A",
+		"amount":0,
+		"percent":0
+	    },
+	    {
+		"fact":"Vitamin C",
+		"amount":0,
+		"percent":0
+	    }
+	]
+    }
+]
+}
