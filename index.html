@@ -25,7 +25,7 @@
 
 </head>
 
-<body style="background-color : #ECECEA;font-family: 'Roboto Condensed', sans-serif;;font-size: 20px;">
+<body style="background-color : rgb(236, 236, 236);font-family: 'Roboto Condensed', sans-serif;;font-size: 20px;">
     <font color='#1c7293'>
         <span style="height:100px">
             <h1>
@@ -73,20 +73,26 @@
                     </div>
                 </div>
                 <center>
-                    <br>
-                    <br>
+                    
                     <br>
                     <input type="button" value="Submit" id="button_event" />
                     <br>
                     <font size='2'>
                         <i>*We don't store any information.</i>
+                        <br>
                     </font>
+                    
+                    <span id = "precursor"></span>
+                    <span id="daily_requirements">
+                    </span>
+                
                 </center>
-
+                
                 <div class="row">
-                    <div class="col-md-5">
+                    <div id = "col-left" class="col-md-5">
                         <center>
-                            <div id="fi1"></div>
+                            <br><div id="fi1"></div>
+                            <br>
 
                         </center>
                         <!-- <div id="radial_graph_one" style="margin: 0 auto;float:left;"></div> -->
@@ -183,12 +189,21 @@
 
 
                         <img src="toronto.png" style="opacity: 0.7;width:100%;height:30%"></img>
+                        <br><br>
+                        <h5>Long term effects of eating this food item on a daily basis</h5>
+                        <br>
+                        <ul id = "list_1">
+
+                        </ul>
+                        <br><br>
+                        
 
                     </div>
                     <div class="col-md-2"></div>
-                    <div class="col-md-5">
+                    <div id = "col-right" class="col-md-5">
                         <center>
-                            <div id="fi2"></div>
+                            <br><div id="fi2"></div>
+                            <br>
 
                         </center>
                         <!-- <div id="radial_graph_two" style="margin: 0 auto;float:left;"> -->
@@ -284,46 +299,44 @@
                             <div id="myBar_2"></div>
                         </div>
                         <br>
-
-
                         <img src="toronto.png" style="opacity: 0.7;width:100%;height:30%"></img>
+                        <br><br>
+                        <h5>Long term effects of eating this food item on a daily basis</h5>
+                        <br>
+                        <ul id = "list_2">
+
+                            </ul>
+                    </div>
+
+                    <div id="long term effect">
+
+                        <div id="green_list">
+
+                        </div>
+
+                        <div id="red_list">
+
+                        </div>
 
                     </div>
                 </div>
             </div>
             <hr>
+            <!-- equal to eating how much of what? -->
+            <!-- one big mac has 563 calories -->
+            <!-- one donut is 11 grams of sugar -->
+            <!-- brocolli 1-cup has 81.2mg vitamin c 2.4g of Fiber 42.8mg of calcium 0.8mg iron 30mg of sodium-->
+            <!--  salmon has 80g protein in one fillet -->
+            <div id="negotiation_val">
 
-            <div id="equivalency">
+                <!-- If you want to eat, you can eat this much -->
 
-                <!-- equal to eating how much of what? -->
-                <!-- one big mac has 563 calories -->
-                <!-- one donut is 11 grams of sugar -->
-                <!-- brocolli 1-cup has 81.2mg vitamin c 2.4g of Fiber 42.8mg of calcium 0.8mg iron 30mg of sodium-->
-                <!--  salmon has 80g protein in one fillet -->
-
-                <div id="long term effect">
-
-                    <div id="green_list">
-
-                    </div>
-
-                    <div id="red_list">
-
-                    </div>
-
-                </div>
-
-                <div id="negotiation_val">
-
-                    <!-- If you want to eat, you can eat this much -->
-                    
-
-                </div>
+            </div>
         </span>
     </font>
-    <script src='io.js'></script>
     <script src="graphs.js"></script>
     <script src="calc.js"></script>
+    <script src='io.js'></script>
 
 </body>
 

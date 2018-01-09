@@ -1,8 +1,6 @@
-var bansal_1;
-var bansal_2;
-
-$(document).ready(function () {
-
+function calc_fn () {
+    var bansal_1;
+    var bansal_2;
 
     //find the net calories and then tell them that it's equal to NumberXbigmacs(picture)
     //find the amount of sugar and compare it to donuts
@@ -38,7 +36,7 @@ $(document).ready(function () {
                 + Math.pow(food_item_2.nutrients[8].amount, 2)
                 , 0.5)
         );
-    // console.log(bansal_2);
+    console.log(1000000*(bansal_2-bansal_1));
     //console.log(bansal_1);
 
 
@@ -53,7 +51,7 @@ $(document).ready(function () {
     document.getElementById('brocolli_number_2').innerHTML = (bansal_2).toFixed(1);
     document.getElementById('salmon_number_1').innerHTML = (food_item_1.nutrients[6].amount / 80).toFixed(1);
     document.getElementById('salmon_number_2').innerHTML = (food_item_2.nutrients[6].amount / 80).toFixed(1);
-    
+
     //console.log((bansal_1));
     var my_dynamic_array = [];
     //iterate over food items and find high concentration of items
@@ -106,5 +104,5 @@ $(document).ready(function () {
 
 
     }
-
-});
+    
+}

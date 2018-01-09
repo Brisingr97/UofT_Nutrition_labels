@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    // console.log("lol");
+function graph_fn() {
+    console.log(food_item_1);
     function renderIcons() {
         // Move icon
         if (!this.series[0].icon) {
@@ -199,4 +199,4 @@ $(document).ready(function() {
         }];
         chart_1_values.series = series;
         $('#radial_graph_two').highcharts(chart_1_values);
-    });
+}
